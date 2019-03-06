@@ -1,6 +1,9 @@
 {
   "name": "users-app",
   "version": "1.0.0",
+  "engines": {
+    "node": "6.7.0"
+  },
   "description": "Users list GET and POST using Nodejs",
   "main": "index.js",
   "scripts": {
@@ -13,7 +16,7 @@
   "author": "Akshay",
   "license": "MIT",
   "dependencies": {
-    "bcrypt": "^3.0.0",
+    "bcrypt": "^3.0.4",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "jsonwebtoken": "^8.5.0",
